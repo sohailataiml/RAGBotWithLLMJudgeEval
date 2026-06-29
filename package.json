@@ -1,0 +1,15 @@
+{
+  "name": "rag-chat-bot-eval",
+  "version": "2.0.0",
+  "description": "RAG Chat Bot with LLM-as-Judge Evaluation Dashboard",
+  "main": "main.py",
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8080 & uvicorn dashboard_server:app --host 0.0.0.0 --port 5173"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["rag", "chatbot", "llm", "evaluation", "anthropic", "claude"],
+  "author": "Sohail Siddiqui",
+  "license": "MIT"
+}

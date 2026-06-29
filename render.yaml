@@ -1,0 +1,30 @@
+{
+  "build": {
+    "builder": "DOCKERFILE",
+    "dockerfilePath": "./Dockerfile"
+  },
+  "services": [
+    {
+      "type": "web",
+      "name": "rag-chat-bot",
+      "env": "docker",
+      "plan": "starter",
+      "dockerfilePath": "./Dockerfile",
+      "envVars": [
+        {
+          "key": "ANTHROPIC_API_KEY",
+          "sync": false
+        },
+        {
+          "key": "PORT",
+          "value": "8080"
+        }
+      ],
+      "healthCheckPath": "/health",
+      "numInstances": 1,
+      "region": "oregon",
+      "buildCommand": "",
+      "startCommand": ""
+    }
+  ]
+}
