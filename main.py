@@ -49,20 +49,33 @@ documents = None
 async def startup_event():
     global vectorstore, rag_chain, embeddings, bm25, documents
     
-    pdf_path = "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+    pdf_files = [
+        "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+        "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+        "Guidance-Human-Factors-Marketing.pdf",
+        "Master Protocols Rev Draft Guidance for Industry.pdf"
+    ]
     
-    if not os.path.exists(pdf_path):
-        raise Exception(f"PDF file not found: {pdf_path}")
+    all_documents = []
+    for pdf_path in pdf_files:
+        if not os.path.exists(pdf_path):
+            print(f"Warning: PDF file not found: {pdf_path}")
+            continue
+        print(f"Loading {pdf_path}...")
+        loader = PyPDFLoader(pdf_path)
+        all_documents.extend(loader.load())
     
-    loader = PyPDFLoader(pdf_path)
-    documents = loader.load()
+    if not all_documents:
+        raise Exception("No PDF files found to load")
+    
+    print(f"Loaded {len(all_documents)} pages from {len(pdf_files)} documents")
     
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=1000,
         chunk_overlap=200,
         length_function=len
     )
-    splits = text_splitter.split_documents(documents)
+    splits = text_splitter.split_documents(all_documents)
     
     # Store documents globally for BM25
     documents = splits
@@ -85,7 +98,7 @@ async def startup_event():
     
     llm = ChatAnthropic(model="claude-sonnet-4-5", temperature=0)
     
-    prompt_template = """You are an AI assistant with access to a PDF document about Protein Efficiency Ratio. Use the following pieces of context retrieved from the document to answer the question at the end.
+    prompt_template = """You are an AI assistant with access to multiple FDA guidance documents. Use the following pieces of context retrieved from the documents to answer the question at the end.
 
 IMPORTANT INSTRUCTIONS:
 - Answer ONLY based on the provided context from the document

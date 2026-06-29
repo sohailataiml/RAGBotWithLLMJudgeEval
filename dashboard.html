@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Evaluation Dashboard</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .dashboard-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .metric-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .metric-subtext {
+            font-size: 0.85rem;
+            color: #999;
+            margin-top: 5px;
+        }
+        
+        .charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .chart-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .chart-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .insights-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .insights-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .insight-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .strengths h3 {
+            color: #28a745;
+        }
+        
+        .weaknesses h3 {
+            color: #dc3545;
+        }
+        
+        .insight-item {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 12px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        
+        .insight-icon {
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+        
+        .insight-text {
+            color: #333;
+            line-height: 1.5;
+        }
+        
+        .insight-metric {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .insights-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .table-container {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        tr:hover {
+            background: #f8f9ff;
+        }
+        
+        .score-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .score-excellent {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .score-good {
+            background: #cce5ff;
+            color: #004085;
+        }
+        
+        .score-fair {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .score-poor {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .doc-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .doc-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .doc-name {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            word-break: break-word;
+        }
+        
+        .doc-metric {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+        
+        .doc-metric-label {
+            color: #666;
+        }
+        
+        .doc-metric-value {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        function RAGDashboard() {
+            const [data, setData] = useState(null);
+            const [loading, setLoading] = useState(true);
+            const [error, setError] = useState(null);
+            const chartRefs = useRef({});
+
+            useEffect(() => {
+                fetch('/api/evaluation-data')
+                    .then(res => res.json())
+                    .then(data => {
+                        setData(data);
+                        setLoading(false);
+                    })
+                    .catch(err => {
+                        setError(err.message);
+                        setLoading(false);
+                    });
+            }, []);
+
+            useEffect(() => {
+                if (data && !loading) {
+                    renderCharts();
+                }
+            }, [data, loading]);
+
+            const renderCharts = () => {
+                // Judge Scores Horizontal Bar Chart
+                if (chartRefs.current.judgeScores) {
+                    const ctx = chartRefs.current.judgeScores.getContext('2d');
+                    new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Correctness', 'Completeness', 'Relevance', 'Retrieval Quality', 'No Hallucination'],
+                            datasets: [{
+                                label: 'Score (out of 5)',
+                                data: [
+                                    data.judgeScores.correctness,
+                                    data.judgeScores.completeness,
+                                    data.judgeScores.relevance,
+                                    data.judgeScores.retrieval_quality,
+                                    data.judgeScores.hallucination_check
+                                ],
+                                backgroundColor: [
+                                    'rgba(255, 99, 132, 0.7)',
+                                    'rgba(54, 162, 235, 0.7)',
+                                    'rgba(255, 206, 86, 0.7)',
+                                    'rgba(75, 192, 192, 0.7)',
+                                    'rgba(153, 102, 255, 0.7)'
+                                ],
+                                borderColor: [
+                                    'rgba(255, 99, 132, 1)',
+                                    'rgba(54, 162, 235, 1)',
+                                    'rgba(255, 206, 86, 1)',
+                                    'rgba(75, 192, 192, 1)',
+                                    'rgba(153, 102, 255, 1)'
+                                ],
+                                borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            indexAxis: 'y',
+                            responsive: true,
+                            maintainAspectRatio: true,
+                            scales: {
+                                x: {
+                                    beginAtZero: true,
+                                    max: 5,
+                                    ticks: {
+                                        stepSize: 1
+                                    },
+                                    grid: {
+                                        color: 'rgba(0, 0, 0, 0.05)'
+                                    }
+                                },
+                                y: {
+                                    grid: {
+                                        display: false
+                                    }
+                                }
+                            },
+                            plugins: {
+                                legend: {
+                                    display: false
+                                },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            return context.parsed.x.toFixed(2) + ' / 5.0';
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // Document Performance Bar Chart
+                if (chartRefs.current.docPerformance) {
+                    const ctx = chartRefs.current.docPerformance.getContext('2d');
+                    const docNames = data.docStats.map(d => d.name.split('/').pop().substring(0, 20));
+                    new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: docNames,
+                            datasets: [{
+                                label: 'Overall Score',
+                                data: data.docStats.map(d => d.overall_score),
+                                backgroundColor: 'rgba(102, 126, 234, 0.7)',
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    max: 5
+                                }
+                            }
+                        }
+                    });
+                }
+
+                // Score Distribution Pie Chart
+                if (chartRefs.current.scoreDistribution) {
+                    const ctx = chartRefs.current.scoreDistribution.getContext('2d');
+                    const distribution = data.scoreDistribution;
+                    new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ['Excellent (4-5)', 'Good (3-4)', 'Fair (2-3)', 'Poor (0-2)'],
+                            datasets: [{
+                                data: [
+                                    distribution.excellent,
+                                    distribution.good,
+                                    distribution.fair,
+                                    distribution.poor
+                                ],
+                                backgroundColor: [
+                                    'rgba(40, 167, 69, 0.7)',
+                                    'rgba(0, 123, 255, 0.7)',
+                                    'rgba(255, 193, 7, 0.7)',
+                                    'rgba(220, 53, 69, 0.7)'
+                                ]
+                            }]
+                        }
+                    });
+                }
+            };
+
+            const getScoreBadgeClass = (score) => {
+                if (score >= 4) return 'score-excellent';
+                if (score >= 3) return 'score-good';
+                if (score >= 2) return 'score-fair';
+                return 'score-poor';
+            };
+
+            if (loading) {
+                return <div className="loading">Loading evaluation data...</div>;
+            }
+
+            if (error) {
+                return <div className="error">Error loading data: {error}</div>;
+            }
+
+            return (
+                <div className="dashboard-container">
+                    <div className="header">
+                        <h1>🎯 RAG Evaluation Dashboard</h1>
+                        <p>LLM-as-Judge Evaluation Results</p>
+                    </div>
+
+                    <div className="metrics-grid">
+                        <div className="metric-card">
+                            <div className="metric-label">Overall Score</div>
+                            <div className="metric-value">{data.judgeScores.overall.toFixed(2)}/5</div>
+                            <div className="metric-subtext">LLM Judge Average</div>
+                        </div>
+                        <div className="metric-card">
+                            <div className="metric-label">Success Rate</div>
+                            <div className="metric-value">{data.successRate}%</div>
+                            <div className="metric-subtext">{data.successful}/{data.total} queries</div>
+                        </div>
+                        <div className="metric-card">
+                            <div className="metric-label">Avg Response Time</div>
+                            <div className="metric-value">{data.avgResponseTime}ms</div>
+                            <div className="metric-subtext">Query latency</div>
+                        </div>
+                        <div className="metric-card">
+                            <div className="metric-label">Total Cost</div>
+                            <div className="metric-value">${data.totalCost.toFixed(4)}</div>
+                            <div className="metric-subtext">${data.avgCostPerQuery.toFixed(4)}/query</div>
+                        </div>
+                    </div>
+
+                    <div className="insights-container">
+                        <div className="insights-grid">
+                            <div className="insight-section strengths">
+                                <h3>✅ Strengths</h3>
+                                <div className="insight-item">
+                                    <span className="insight-icon">🎯</span>
+                                    <span className="insight-text">
+                                        <span className="insight-metric">High relevance ({data.judgeScores.relevance.toFixed(2)}/5)</span> - Answers are on-topic and directly address the questions
+                                    </span>
+                                </div>
+                                <div className="insight-item">
+                                    <span className="insight-icon">✔️</span>
+                                    <span className="insight-text">
+                                        <span className="insight-metric">Low hallucination ({data.judgeScores.hallucination_check.toFixed(2)}/5)</span> - Answers are grounded in retrieved sources
+                                    </span>
+                                </div>
+                                <div className="insight-item">
+                                    <span className="insight-icon">🚀</span>
+                                    <span className="insight-text">
+                                        <span className="insight-metric">{data.successRate}% success rate</span> - All queries completed successfully
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="insight-section weaknesses">
+                                <h3>⚠️ Weaknesses</h3>
+                                <div className="insight-item">
+                                    <span className="insight-icon">🔍</span>
+                                    <span className="insight-text">
+                                        <span className="insight-metric">Poor retrieval quality ({data.judgeScores.retrieval_quality.toFixed(2)}/5)</span> - Not finding the best sources for answers
+                                    </span>
+                                </div>
+                                <div className="insight-item">
+                                    <span className="insight-icon">📝</span>
+                                    <span className="insight-text">
+                                        <span className="insight-metric">Low completeness ({data.judgeScores.completeness.toFixed(2)}/5)</span> - Missing key information from ground truth
+                                    </span>
+                                </div>
+                                <div className="insight-item">
+                                    <span className="insight-icon">⚖️</span>
+                                    <span className="insight-text">
+                                        <span className="insight-metric">Moderate correctness ({data.judgeScores.correctness.toFixed(2)}/5)</span> - Some factual errors or inaccuracies
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="charts-container">
+                        <div className="chart-card">
+                            <h3 className="chart-title">Judge Score Breakdown</h3>
+                            <canvas ref={el => chartRefs.current.judgeScores = el}></canvas>
+                        </div>
+                        <div className="chart-card">
+                            <h3 className="chart-title">Document Performance</h3>
+                            <canvas ref={el => chartRefs.current.docPerformance = el}></canvas>
+                        </div>
+                        <div className="chart-card">
+                            <h3 className="chart-title">Score Distribution</h3>
+                            <canvas ref={el => chartRefs.current.scoreDistribution = el}></canvas>
+                        </div>
+                    </div>
+
+                    <div className="doc-stats">
+                        {data.docStats.map((doc, idx) => (
+                            <div key={idx} className="doc-card">
+                                <div className="doc-name">{doc.name.split('/').pop()}</div>
+                                <div className="doc-metric">
+                                    <span className="doc-metric-label">Questions:</span>
+                                    <span className="doc-metric-value">{doc.count}</span>
+                                </div>
+                                <div className="doc-metric">
+                                    <span className="doc-metric-label">Overall Score:</span>
+                                    <span className="doc-metric-value">{doc.overall_score.toFixed(2)}/5</span>
+                                </div>
+                                <div className="doc-metric">
+                                    <span className="doc-metric-label">Correctness:</span>
+                                    <span className="doc-metric-value">{doc.correctness.toFixed(2)}/5</span>
+                                </div>
+                                <div className="doc-metric">
+                                    <span className="doc-metric-label">Retrieval:</span>
+                                    <span className="doc-metric-value">{doc.retrieval.toFixed(2)}/5</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="table-container">
+                        <h3 className="chart-title">Detailed Results</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Question</th>
+                                    <th>Document</th>
+                                    <th>Overall</th>
+                                    <th>Correct</th>
+                                    <th>Complete</th>
+                                    <th>Relevant</th>
+                                    <th>Retrieval</th>
+                                    <th>Time (ms)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {data.results.map((result, idx) => (
+                                    <tr key={idx}>
+                                        <td>{result.question_id}</td>
+                                        <td style={{maxWidth: '300px'}}>{result.question}</td>
+                                        <td style={{fontSize: '0.85rem'}}>{result.document.split('/').pop().substring(0, 25)}...</td>
+                                        <td>
+                                            <span className={`score-badge ${getScoreBadgeClass(result.judge_overall)}`}>
+                                                {result.judge_overall.toFixed(1)}
+                                            </span>
+                                        </td>
+                                        <td>{result.judge_correctness}</td>
+                                        <td>{result.judge_completeness}</td>
+                                        <td>{result.judge_relevance}</td>
+                                        <td>{result.judge_retrieval}</td>
+                                        <td>{Math.round(result.response_time_ms)}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<RAGDashboard />);
+    </script>
+</body>
+</html>

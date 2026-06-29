@@ -1,0 +1,1540 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the purpose of conducting a PER (Protein Efficiency Ratio) rat bioassay for infant formulas?",
+    "expected_answer": "The PER rat bioassay is used to demonstrate that a new infant formula meets the quality factor of sufficient biological quality of protein. It determines the efficiency (quality) of a test protein compared with reference casein protein by comparing growth rates from rats consuming a diet containing the test protein with those consuming a diet containing the reference protein. This approach ensures that infants will not be fed a formula with inadequate or biologically unavailable protein.",
+    "actual_answer": "Based on the provided context, the purpose of conducting a PER (Protein Efficiency Ratio) rat bioassay for infant formulas is:\n\n1. **To determine protein quality before infant exposure**: Conducting a PER study in an animal model permits a determination of a formula's protein quality before infants are exposed to the formula.\n\n2. **To ensure protein adequacy and bioavailability**: This approach ensures that infants will not be fed a formula with inadequate or biologically unavailable protein.\n\n3. **Regulatory requirement**: The PER rat bioassay must be conducted on a formula and the results evaluated prior to the initiation of a growth monitoring study of the formula that is required under 21 CFR 106.96(b).\n\n4. **Quality assurance**: The guidance explains how the PER study can be used to provide assurance that a new infant formula meets the quality factor (though the specific quality factor is not completed in the provided text excerpt).\n\nIn summary, the PER bioassay serves as a safety measure to evaluate protein quality in infant formulas using an animal model before the formula is tested on or given to human infants.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+    "error": null,
+    "word_overlap_score": 0.635,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 76.52,
+    "correctness": 4,
+    "completeness": 4,
+    "relevance": 5,
+    "retrieval_quality": 3,
+    "hallucination_check": 4,
+    "overall_score": 4.0,
+    "reasoning": "The actual answer correctly identifies the core purpose of PER bioassay (protein quality determination and ensuring adequate protein before infant exposure) and is highly relevant. However, the retrieved context is incomplete - it lacks the specific comparison methodology with casein reference protein mentioned in the ground truth. The answer includes some regulatory details that, while likely accurate, aren't fully visible in the provided context snippets, suggesting minor inference beyond retrieved text.",
+    "trace": {
+      "semantic_search_ms": 34.52,
+      "keyword_search_ms": 4.05,
+      "hybrid_scoring_ms": 217.27,
+      "llm_generation_ms": 5249.13,
+      "tokens_input": 757,
+      "tokens_output": 284,
+      "tokens_total": 1041,
+      "cost_input_usd": 0.002271,
+      "cost_output_usd": 0.00426,
+      "cost_total_usd": 0.006531,
+      "total_time_ms": 5505.0,
+      "total_time_s": 5.51
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations  \n4 18th ed., sections 45.3.04 and 45.3.05, \u201cAOAC Official Method 960.48 Protein Efficiency \nRatio Rat Bioassay,\u201d which is incorporated by reference at \u00a7 106.160 ( see Appendix 1) .  \nThe PER rat bioassay shall be ",
+        "metadata": {
+          "page": 3,
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+        },
+        "similarity_score": 0.2302,
+        "relevance_percentage": 86.19,
+        "search_method": "hybrid",
+        "keyword_score": 28.24,
+        "semantic_score": 76.98,
+        "citation": "[1] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 4"
+      },
+      {
+        "rank": 2,
+        "content": "Contains Nonbinding Recommendations  \n6 Section IV provides r ecommendations  that address \u201cappropriate modifications\u201d to update  the \nAOAC Method to bring it in line with current knowledge  of rat nutrition , as well as \nrecommendations that address",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 5
+        },
+        "similarity_score": 0.3448,
+        "relevance_percentage": 73.62,
+        "search_method": "keyword",
+        "keyword_score": 24.22,
+        "semantic_score": 65.52,
+        "citation": "[2] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 6"
+      },
+      {
+        "rank": 3,
+        "content": "required.  \nII. Background  \nThe purpose of the PER methodology, as defined in the AOAC Method, is to determine the efficiency (i.e.,  quality)  of a test protein  ingredient  compared with that of the reference casein \nprotein from a rat bioassay . ",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.4132,
+        "relevance_percentage": 69.75,
+        "search_method": "keyword",
+        "keyword_score": 24.38,
+        "semantic_score": 58.68,
+        "citation": "[3] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 4"
+      }
+    ]
+  },
+  {
+    "question_id": 2,
+    "question": "According to 21 CFR 106.96(f), when must a PER rat bioassay be conducted in relation to growth monitoring studies?",
+    "expected_answer": "The PER rat bioassay must be conducted on a formula and the results evaluated prior to the initiation of a growth monitoring study of the formula that is required under 21 CFR 106.96(b). This ensures that protein quality is assessed before infants are exposed to the formula.",
+    "actual_answer": "Based on the provided context, I cannot answer this question. The context discusses statistical analyses, recordkeeping, and general recommendations for PER studies, but it does not contain information about 21 CFR 106.96(f) or the specific timing requirements for when a PER rat bioassay must be conducted in relation to growth monitoring studies.\n\nTo answer this question accurately, I would need access to the specific regulatory text of 21 CFR 106.96(f).",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+    "error": null,
+    "word_overlap_score": 0.459,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 62.22,
+    "correctness": 1,
+    "completeness": 1,
+    "relevance": 3,
+    "retrieval_quality": 1,
+    "hallucination_check": 5,
+    "overall_score": 2.2,
+    "reasoning": "The RAG system correctly identified that the retrieved context does not contain the necessary information to answer the question and appropriately declined to provide an answer. While this demonstrates good hallucination prevention, it fails to provide the correct information about timing requirements specified in 21 CFR 106.96(f), resulting in low correctness and completeness scores but high marks for avoiding fabrication.",
+    "trace": {
+      "semantic_search_ms": 31.06,
+      "keyword_search_ms": 2.46,
+      "hybrid_scoring_ms": 172.56,
+      "llm_generation_ms": 2959.69,
+      "tokens_input": 740,
+      "tokens_output": 114,
+      "tokens_total": 854,
+      "cost_input_usd": 0.00222,
+      "cost_output_usd": 0.00171,
+      "cost_total_usd": 0.00393,
+      "total_time_ms": 3165.81,
+      "total_time_s": 3.17
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations  \n4 18th ed., sections 45.3.04 and 45.3.05, \u201cAOAC Official Method 960.48 Protein Efficiency \nRatio Rat Bioassay,\u201d which is incorporated by reference at \u00a7 106.160 ( see Appendix 1) .  \nThe PER rat bioassay shall be ",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.3877,
+        "relevance_percentage": 76.74,
+        "search_method": "keyword",
+        "keyword_score": 34.95,
+        "semantic_score": 61.23,
+        "citation": "[1] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 4"
+      },
+      {
+        "rank": 2,
+        "content": "study or the manufacturer that reviews the results.  Commonly used statis tical analyses include \nthe calculation of mean and standard deviations for all continuous data, including overall and \nweekly body weights and body weight gains, overall and w",
+        "metadata": {
+          "page": 27,
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+        },
+        "similarity_score": 0.3864,
+        "relevance_percentage": 62.52,
+        "search_method": "hybrid",
+        "keyword_score": 22.46,
+        "semantic_score": 61.36,
+        "citation": "[2] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 28"
+      },
+      {
+        "rank": 3,
+        "content": "cellulose, and fiber is not included in infant formula, we consider ed whether the addition of \ncellulose is beneficial in conducting an infant formula  PER study .20 \nThe NRC\u2019s Nutrient Requirements of Laboratory Animals  notes that although fiber h",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 19
+        },
+        "similarity_score": 0.6227,
+        "relevance_percentage": 47.4,
+        "search_method": "keyword",
+        "keyword_score": 21.64,
+        "semantic_score": 37.73,
+        "citation": "[3] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 20"
+      }
+    ]
+  },
+  {
+    "question_id": 3,
+    "question": "Why are modifications to the AOAC Official Method 960.48 necessary when testing infant formulas?",
+    "expected_answer": "Modifications are necessary because infant formulas have relatively high fat and low protein contents and may contain high concentrations of lactose, which differ from the original AOAC Method parameters. The aim of specific diet modifications is to ensure that the infant formula-containing test diet and the casein reference diet are as similar as possible, with adjustments made to attain similar levels and types of fat, carbohydrate, and ash content.",
+    "actual_answer": "Based on the provided context, I cannot fully answer why modifications to the AOAC Official Method 960.48 are necessary when testing infant formulas.\n\nThe context mentions that \"when full compositions of the PER study test and casein reference diets are provided to FDA...it is possible for us to confirm by calculation that appropriate modifications were made,\" which indicates that modifications are indeed made to the method. However, the specific reasons or rationale for why these modifications are necessary are not explained in the provided text.\n\nThe context focuses on what information should be provided (full specifications, nutrient units, elemental mineral concentrations, addition rates, and diet preparation records) to verify that modifications were made correctly, but it does not explain the underlying reasons why the modifications themselves are needed for infant formula testing.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+    "error": null,
+    "word_overlap_score": 0.373,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 71.78,
+    "correctness": 1,
+    "completeness": 1,
+    "relevance": 3,
+    "retrieval_quality": 2,
+    "hallucination_check": 5,
+    "overall_score": 2.4,
+    "reasoning": "The RAG system correctly identifies that it cannot answer the question based on the retrieved context, showing good awareness. However, the retrieved context appears incomplete and doesn't contain the necessary information about infant formula composition differences (high fat, low protein, high lactose) that justify the modifications, resulting in a failed answer to the actual question.",
+    "trace": {
+      "semantic_search_ms": 21.12,
+      "keyword_search_ms": 1.37,
+      "hybrid_scoring_ms": 203.93,
+      "llm_generation_ms": 5695.87,
+      "tokens_input": 675,
+      "tokens_output": 225,
+      "tokens_total": 900,
+      "cost_input_usd": 0.002025,
+      "cost_output_usd": 0.003375,
+      "cost_total_usd": 0.0054,
+      "total_time_ms": 5922.32,
+      "total_time_s": 5.92
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations  \n8 IV. \u201cAppropriate Modifications\u201d of AOAC Official Method 960.48 \nA. Need for \u201cAppropriate Modifications\u201d to Update the AOAC Method and for Use of \nInfant F ormulas in PER B ioassays  \nSince publication of the AO",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 7
+        },
+        "similarity_score": 0.4014,
+        "relevance_percentage": 75.92,
+        "search_method": "keyword",
+        "keyword_score": 25.86,
+        "semantic_score": 59.86,
+        "citation": "[1] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 8"
+      },
+      {
+        "rank": 2,
+        "content": "casein (Ref. 7). \nModifications to the diets described in the AOAC Method are also necessary  to bring the AOAC \nMethod into alignment with current knowledge of rat nutrition.  Since the development of the AOAC Method in the early  1960s, there have ",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 4
+        },
+        "similarity_score": 0.38,
+        "relevance_percentage": 71.63,
+        "search_method": "keyword",
+        "keyword_score": 22.26,
+        "semantic_score": 62.0,
+        "citation": "[2] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 5"
+      },
+      {
+        "rank": 3,
+        "content": "evaluation, and reporting of  PER studies .  The  guidance is intended to explain how  the PER \nstudy can be used to provide assurance that a new infant formula meets the quality factor of \nsufficient biological quality of protein in the infant formu",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.4819,
+        "relevance_percentage": 67.8,
+        "search_method": "keyword",
+        "keyword_score": 23.74,
+        "semantic_score": 51.81,
+        "citation": "[3] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 4"
+      }
+    ]
+  },
+  {
+    "question_id": 4,
+    "question": "What is the unique advantage of the PER bioassay compared to chemical measurements of protein?",
+    "expected_answer": "The PER bioassay is unique in its ability to assess relative protein utilization and bioavailability of different protein sources. While chemical measurements of total protein and amino acid patterns are possible, they do not address the bioavailability of a protein, and FDA is not aware of any other method to assess protein bioavailability.",
+    "actual_answer": "Based on the provided context, I cannot definitively answer what the unique advantage of the PER bioassay is compared to chemical measurements of protein.\n\nThe context explains that the PER methodology determines protein **quality** (efficiency) by comparing **growth rates** from rats consuming different protein sources, rather than just measuring chemical composition. However, the context does not explicitly state or compare the advantages of this bioassay approach versus chemical measurements.\n\nThe context does indicate that PER measures biological response (rat growth) while controlling for chemical composition factors (nitrogen, fat, ash, moisture, and crude fiber), but it does not directly articulate why this biological approach is advantageous over purely chemical methods.\n\nTo properly answer this question, I would need additional context from the document that specifically discusses the comparative advantages of bioassays versus chemical measurements.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+    "error": null,
+    "word_overlap_score": 0.359,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 64.12,
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 4,
+    "retrieval_quality": 3,
+    "hallucination_check": 5,
+    "overall_score": 3.2,
+    "reasoning": "The RAG system correctly identifies that it lacks sufficient information to fully answer the question, which is honest but incomplete. Source 1 actually contains the key information about bioavailability assessment being unique to PER, but the system failed to extract this critical detail. The system is well-grounded with no hallucinations and remains relevant, but misses the main point about bioavailability that distinguishes PER from chemical measurements.",
+    "trace": {
+      "semantic_search_ms": 31.21,
+      "keyword_search_ms": 1.41,
+      "hybrid_scoring_ms": 169.98,
+      "llm_generation_ms": 10718.08,
+      "tokens_input": 750,
+      "tokens_output": 243,
+      "tokens_total": 993,
+      "cost_input_usd": 0.00225,
+      "cost_output_usd": 0.003645,
+      "cost_total_usd": 0.005895,
+      "total_time_ms": 10920.71,
+      "total_time_s": 10.92
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations  \n5 Despite recognized limitations, the PER bioassay is unique in its ability to assess relative protein \nutilization.  Chemical measurements of total protein (i.e., measurement of nitrogen) and \ndetermination of a",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 4
+        },
+        "similarity_score": 0.3997,
+        "relevance_percentage": 76.02,
+        "search_method": "keyword",
+        "keyword_score": 37.67,
+        "semantic_score": 60.03,
+        "citation": "[1] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 5"
+      },
+      {
+        "rank": 2,
+        "content": "required.  \nII. Background  \nThe purpose of the PER methodology, as defined in the AOAC Method, is to determine the efficiency (i.e.,  quality)  of a test protein  ingredient  compared with that of the reference casein \nprotein from a rat bioassay . ",
+        "metadata": {
+          "page": 3,
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+        },
+        "similarity_score": 0.4433,
+        "relevance_percentage": 58.25,
+        "search_method": "hybrid",
+        "keyword_score": 23.4,
+        "semantic_score": 55.67,
+        "citation": "[2] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 4"
+      },
+      {
+        "rank": 3,
+        "content": "Contains Nonbinding Recommendations  \n6 Section IV provides r ecommendations  that address \u201cappropriate modifications\u201d to update  the \nAOAC Method to bring it in line with current knowledge  of rat nutrition , as well as \nrecommendations that address",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 5
+        },
+        "similarity_score": 0.4344,
+        "relevance_percentage": 58.1,
+        "search_method": "keyword",
+        "keyword_score": 22.76,
+        "semantic_score": 56.56,
+        "citation": "[3] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 6"
+      }
+    ]
+  },
+  {
+    "question_id": 5,
+    "question": "Why must protein in infant formula be evaluated as part of the whole formula matrix rather than as a single protein ingredient?",
+    "expected_answer": "FDA regulations require evaluation of protein as part of the whole formula matrix to account for the effects of processing or other components on digestion and protein availability. This ensures that the assessment reflects how the protein will actually perform in the complete infant formula product rather than in isolation.",
+    "actual_answer": "Based on the provided context, protein in infant formula must be evaluated as part of the whole formula matrix rather than as a single protein ingredient **to account for the effects of processing or other components on digestion and protein availability**.\n\nThe context explains that FDA regulations require this whole-matrix evaluation approach because the other components in the formula and the processing methods can influence how the protein is digested and how available it becomes for use by the body.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+    "error": null,
+    "word_overlap_score": 0.725,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 70.49,
+    "correctness": 5,
+    "completeness": 5,
+    "relevance": 5,
+    "retrieval_quality": 5,
+    "hallucination_check": 5,
+    "overall_score": 5,
+    "reasoning": "The actual answer perfectly matches the ground truth, accurately stating that FDA regulations require whole-matrix evaluation to account for processing and component effects on digestion and protein availability. The retrieved context directly supports all claims made, with no hallucinations present.",
+    "trace": {
+      "semantic_search_ms": 29.65,
+      "keyword_search_ms": 3.22,
+      "hybrid_scoring_ms": 182.66,
+      "llm_generation_ms": 3555.94,
+      "tokens_input": 753,
+      "tokens_output": 127,
+      "tokens_total": 880,
+      "cost_input_usd": 0.002259,
+      "cost_output_usd": 0.001905,
+      "cost_total_usd": 0.004164,
+      "total_time_ms": 3771.51,
+      "total_time_s": 3.77
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "FDA regulations require that the protein in an infant formula be evaluated as part of the whole \nformula matrix, rather than as a single protein ingredient, to account for the effects of processing \nor other components  on digestion and protein avail",
+        "metadata": {
+          "page": 4,
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+        },
+        "similarity_score": 0.3346,
+        "relevance_percentage": 79.93,
+        "search_method": "hybrid",
+        "keyword_score": 53.21,
+        "semantic_score": 66.54,
+        "citation": "[1] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 5"
+      },
+      {
+        "rank": 2,
+        "content": "Contains Nonbinding Recommendations  \n5 Despite recognized limitations, the PER bioassay is unique in its ability to assess relative protein \nutilization.  Chemical measurements of total protein (i.e., measurement of nitrogen) and \ndetermination of a",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 4
+        },
+        "similarity_score": 0.4243,
+        "relevance_percentage": 70.73,
+        "search_method": "keyword",
+        "keyword_score": 48.13,
+        "semantic_score": 57.57,
+        "citation": "[2] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 5"
+      },
+      {
+        "rank": 3,
+        "content": "Cosmetic Act (FD&C Act) to include section 412  (21 U.S.C. 350a) .  In 1986, Congress amended \nsection 412 of the FD&C Act to require FDA  to establish quality factors for infant formula and \nstipulated that an infant formula would be considered adul",
+        "metadata": {
+          "source": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf",
+          "page": 2
+        },
+        "similarity_score": 0.3965,
+        "relevance_percentage": 60.82,
+        "search_method": "keyword",
+        "keyword_score": 32.74,
+        "semantic_score": 60.35,
+        "citation": "[3] ProteinEfficiencyRatio-FinalGuidance-May2026.pdf, Page 3"
+      }
+    ]
+  },
+  {
+    "question_id": 6,
+    "question": "What is the purpose of the FDA guidance document on Drug and Device Manufacturer Communications With Payors?",
+    "expected_answer": "The guidance provides answers to common questions concerning firms' communication of health care economic information (HCEI) regarding their prescription drugs and medical devices to payors, formulary committees, or similar entities. It also addresses questions relating to dissemination to payors of information about unapproved medical products and unapproved uses of approved/cleared medical products.",
+    "actual_answer": "Based on the provided context, the purpose of the FDA guidance document on Drug and Device Manufacturer Communications With Payors is **to provide FDA's thinking on frequently asked questions regarding communications between firms and payors in order to provide clarity to both firms and payors** (lines 58-60).\n\nThe guidance addresses the fact that a number of FDA's statutory and regulatory provisions potentially impact firms' communications with payors, and aims to clarify how these provisions apply to such communications.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+    "error": null,
+    "word_overlap_score": 0.268,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 72.67,
+    "correctness": 3,
+    "completeness": 2,
+    "relevance": 5,
+    "retrieval_quality": 2,
+    "hallucination_check": 4,
+    "overall_score": 3.2,
+    "reasoning": "The actual answer correctly identifies that the guidance provides clarity on communications between firms and payors, which is relevant to the question. However, it misses critical details from the ground truth about health care economic information (HCEI) and information about unapproved products/uses. The retrieved context appears incomplete, containing only document headers without the substantive content needed to fully answer the question.",
+    "trace": {
+      "semantic_search_ms": 28.06,
+      "keyword_search_ms": 1.76,
+      "hybrid_scoring_ms": 283.15,
+      "llm_generation_ms": 3308.86,
+      "tokens_input": 741,
+      "tokens_output": 132,
+      "tokens_total": 873,
+      "cost_input_usd": 0.002223,
+      "cost_output_usd": 0.00198,
+      "cost_total_usd": 0.004203,
+      "total_time_ms": 3621.88,
+      "total_time_s": 3.62
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations  \nDraft \u2014 Not for Implementation  \n 1 Drug and Device Manufacturer Communications With Payors, 1 \nFormulary Committees, and Similar Entities  2 \nQuestions and Answers  3 \nGuidance for Industry1 4 \n 5 \n 6 \nThis draf",
+        "metadata": {
+          "page": 3,
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf"
+        },
+        "similarity_score": 0.2832,
+        "relevance_percentage": 75.96,
+        "search_method": "hybrid",
+        "keyword_score": 25.67,
+        "semantic_score": 71.68,
+        "citation": "[1] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 4"
+      },
+      {
+        "rank": 2,
+        "content": "56628397dftrv1  Drug and Device Manufacturer \nCommunications With Payors, \nFormulary Committees,  \nand Similar Entities  \nQuestions and Answers  \nGuidance for Industry \n \n \nDRAFT GUIDANCE \n \n This guidance document is being distributed for comment pu",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 0
+        },
+        "similarity_score": 0.4423,
+        "relevance_percentage": 73.46,
+        "search_method": "keyword",
+        "keyword_score": 31.16,
+        "semantic_score": 55.77,
+        "citation": "[2] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 1"
+      },
+      {
+        "rank": 3,
+        "content": "associated with med ical device use . The purpose of th e current  guidance is to help manufacturers \napply  a risk -based approach when considering what human factors information to include in a \nmarketing submission.  The current guidance provides ",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 4
+        },
+        "similarity_score": 0.3824,
+        "relevance_percentage": 68.58,
+        "search_method": "keyword",
+        "keyword_score": 24.56,
+        "semantic_score": 61.76,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 5"
+      }
+    ]
+  },
+  {
+    "question_id": 7,
+    "question": "What legislative changes prompted the revision of this FDA guidance document?",
+    "expected_answer": "The guidance incorporates updates to the Federal Food, Drug, and Cosmetic Act (FD&C Act) as amended by section 3630 of the Consolidated Appropriations Act, 2023. Changes include updates to reflect revised statutory text that makes provisions in section 502(a) applicable to devices, and alignment with new section 502(gg) of the FD&C Act regarding truthful and not misleading information provided to payors.",
+    "actual_answer": "Based on the provided context, I cannot definitively answer what legislative changes prompted the revision of this FDA guidance document on Master Protocols for Drug and Biological Product Development.\n\nThe context shows that this is a draft guidance that \"revises and replaces the previous draft guidance\" (page 1), but the sentence is cut off and doesn't specify which previous guidance or what prompted the revision.\n\nWhile the context does reference several legislative acts in a footnote (section 114 of FDAMA, section 3037 of the 21st Century Cures Act, and section 3630 of the Consolidated Appropriations Act, 2023), these references appear to relate to section 502(a) of the FD&C Act regarding HCEI (Health Care Economic Information), not to the Master Protocols guidance document itself.\n\nThe context does not contain sufficient information to determine what specific legislative changes prompted this particular guidance revision.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+    "error": null,
+    "word_overlap_score": 0.417,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 69.19,
+    "correctness": 1,
+    "completeness": 1,
+    "relevance": 3,
+    "retrieval_quality": 1,
+    "hallucination_check": 5,
+    "overall_score": 2.2,
+    "reasoning": "The RAG system correctly states it cannot answer the question based on the retrieved context, which is accurate given the poor retrieval quality. However, this results in a complete failure to provide the correct information about the Consolidated Appropriations Act, 2023 amendments, section 502(a) and 502(gg) updates that the ground truth specifies. While the system avoids hallucination by acknowledging insufficient information, it fails to deliver the required answer.",
+    "trace": {
+      "semantic_search_ms": 24.23,
+      "keyword_search_ms": 1.13,
+      "hybrid_scoring_ms": 308.23,
+      "llm_generation_ms": 5132.0,
+      "tokens_input": 732,
+      "tokens_output": 235,
+      "tokens_total": 967,
+      "cost_input_usd": 0.002196,
+      "cost_output_usd": 0.003525,
+      "cost_total_usd": 0.005721,
+      "total_time_ms": 5465.62,
+      "total_time_s": 5.47
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "conducted under a master protocol as well as guidance on the submission of documentation to 17 \nsupport regulatory review .2 This draft guidance revises and replaces the previous draft guidance 18 \nfor industry of the same name issued on December 21,",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.3631,
+        "relevance_percentage": 78.21,
+        "search_method": "keyword",
+        "keyword_score": 15.46,
+        "semantic_score": 63.69,
+        "citation": "[1] Master Protocols Rev Draft Guidance for Industry.pdf, Page 4"
+      },
+      {
+        "rank": 2,
+        "content": "Contains Nonbinding Recommendations  \nDraft \u2014 Not for Implementation  \n 23  826 \n\u2022 The master protocol sponsor should clearly mark the cover letter for protocol 827 \namendments with \u201cProtocol Amendment -MASTER PROTOCOL,\u201d and include a clean 828 \nand ",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 25
+        },
+        "similarity_score": 0.4239,
+        "relevance_percentage": 67.26,
+        "search_method": "keyword",
+        "keyword_score": 12.64,
+        "semantic_score": 57.61,
+        "citation": "[2] Master Protocols Rev Draft Guidance for Industry.pdf, Page 26"
+      },
+      {
+        "rank": 3,
+        "content": "and in the intended use environment(s) may not need to submit human f actors  validation testing  \nto support marketing authorization . It may be useful to conduct comparative analyses to similar \nlegally marketed devices (e.g., labeling comparison, ",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 11
+        },
+        "similarity_score": 0.5511,
+        "relevance_percentage": 62.11,
+        "search_method": "keyword",
+        "keyword_score": 13.6,
+        "semantic_score": 44.89,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 12"
+      }
+    ]
+  },
+  {
+    "question_id": 8,
+    "question": "How long do stakeholders have to submit comments on this draft FDA guidance?",
+    "expected_answer": "Comments and suggestions regarding this draft document should be submitted within 60 days of publication in the Federal Register of the notice announcing the availability of the draft guidance. Comments can be submitted electronically to regulations.gov or in writing to the Dockets Management Staff.",
+    "actual_answer": "Based on the provided context, stakeholders have **60 days** from the publication in the Federal Register of the notice announcing the availability of the draft guidance to submit comments.\n\nThe document states: \"Comments and suggestions regarding this draft document should be submitted within 60 days of publication in the Federal Register of the notice announcing the availability of the draft guidance.\"",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+    "error": null,
+    "word_overlap_score": 0.688,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 70.86,
+    "correctness": 5,
+    "completeness": 3,
+    "relevance": 5,
+    "retrieval_quality": 2,
+    "hallucination_check": 5,
+    "overall_score": 4.0,
+    "reasoning": "The actual answer correctly identifies the 60-day comment period and provides an accurate direct quote from the source document. However, it omits information about submission methods (regulations.gov and Dockets Management Staff). The retrieved context is incomplete, with only fragments visible rather than the full relevant passage.",
+    "trace": {
+      "semantic_search_ms": 24.74,
+      "keyword_search_ms": 1.46,
+      "hybrid_scoring_ms": 264.2,
+      "llm_generation_ms": 2403.49,
+      "tokens_input": 688,
+      "tokens_output": 101,
+      "tokens_total": 789,
+      "cost_input_usd": 0.002064,
+      "cost_output_usd": 0.001515,
+      "cost_total_usd": 0.003579,
+      "total_time_ms": 2693.97,
+      "total_time_s": 2.69
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Master Protocols for \nDrug and Biological \nProduct Development \nGuidance for Industry  \n \n  \nDRAFT GUIDANCE \n  This guidance document is being distributed for comment purposes only.  \n Comments and suggestions regarding this draft document should be ",
+        "metadata": {
+          "page": 0,
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf"
+        },
+        "similarity_score": 0.354,
+        "relevance_percentage": 77.86,
+        "search_method": "hybrid",
+        "keyword_score": 17.94,
+        "semantic_score": 64.6,
+        "citation": "[1] Master Protocols Rev Draft Guidance for Industry.pdf, Page 1"
+      },
+      {
+        "rank": 2,
+        "content": "56628397dftrv1  Drug and Device Manufacturer \nCommunications With Payors, \nFormulary Committees,  \nand Similar Entities  \nQuestions and Answers  \nGuidance for Industry \n \n \nDRAFT GUIDANCE \n \n This guidance document is being distributed for comment pu",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 0
+        },
+        "similarity_score": 0.5187,
+        "relevance_percentage": 68.88,
+        "search_method": "keyword",
+        "keyword_score": 18.36,
+        "semantic_score": 48.13,
+        "citation": "[2] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 1"
+      },
+      {
+        "rank": 3,
+        "content": "Contains Nonbinding Recommendations\nPreface\nPublic Comment\nYou may submit electronic comments and suggestions at any time for Agency consideration to \nhttps://www.regulations.gov . Submit written comments to the Dockets Management Staff, Food \nand Dr",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 1
+        },
+        "similarity_score": 0.4781,
+        "relevance_percentage": 65.83,
+        "search_method": "keyword",
+        "keyword_score": 15.84,
+        "semantic_score": 52.19,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 2"
+      }
+    ]
+  },
+  {
+    "question_id": 9,
+    "question": "Who should be contacted with questions about this draft guidance document from CDER, CBER, and CDRH?",
+    "expected_answer": "For questions regarding this draft document, stakeholders should contact Twyla Mosey at 301-796-1200 for CDER, the Office of Communication, Outreach and Development at 800-835-4709 or 240-402-8010 for CBER, and Stephanie Philbin at 301-837-7151 for CDRH.",
+    "actual_answer": "Based on the provided context, the following contacts are listed for questions about this draft guidance document:\n\n**CDER (Center for Drug Evaluation and Research):**\n- Scott N. Goldie at Scott.Goldie@fda.hhs.gov\n\n**CBER (Center for Biologics Evaluation and Research):**\n- Office of Communication, Outreach and Development at 800-835-4709 or 240-402-8010\n\n**CDRH:** The context does not provide contact information for CDRH (Center for Devices and Radiological Health). Only CDER and CBER contacts are mentioned in the provided text.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+    "error": null,
+    "word_overlap_score": 0.552,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 61.38,
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 5,
+    "retrieval_quality": 2,
+    "hallucination_check": 3,
+    "overall_score": 2.8,
+    "reasoning": "The RAG system provided incorrect contact information for CDER (Scott N. Goldie instead of Twyla Mosey) and correct information for CBER, but failed to retrieve CDRH contact information entirely. The system also appears to have introduced information (Scott Goldie's email) not visible in the retrieved context snippets, suggesting either hallucination or incomplete context display.",
+    "trace": {
+      "semantic_search_ms": 26.53,
+      "keyword_search_ms": 2.0,
+      "hybrid_scoring_ms": 264.81,
+      "llm_generation_ms": 3383.39,
+      "tokens_input": 645,
+      "tokens_output": 133,
+      "tokens_total": 778,
+      "cost_input_usd": 0.001935,
+      "cost_output_usd": 0.001995,
+      "cost_total_usd": 0.00393,
+      "total_time_ms": 3676.75,
+      "total_time_s": 3.68
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Master Protocols for \nDrug and Biological \nProduct Development \nGuidance for Industry  \n \n  \nDRAFT GUIDANCE \n  This guidance document is being distributed for comment purposes only.  \n Comments and suggestions regarding this draft document should be ",
+        "metadata": {
+          "page": 0,
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf"
+        },
+        "similarity_score": 0.5242,
+        "relevance_percentage": 64.4,
+        "search_method": "hybrid",
+        "keyword_score": 21.58,
+        "semantic_score": 47.58,
+        "citation": "[1] Master Protocols Rev Draft Guidance for Industry.pdf, Page 1"
+      },
+      {
+        "rank": 2,
+        "content": "56628397dftrv1  Drug and Device Manufacturer \nCommunications With Payors, \nFormulary Committees,  \nand Similar Entities  \nQuestions and Answers  \nGuidance for Industry \n \n \nDRAFT GUIDANCE \n \n This guidance document is being distributed for comment pu",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 0
+        },
+        "similarity_score": 0.6027,
+        "relevance_percentage": 63.84,
+        "search_method": "keyword",
+        "keyword_score": 24.07,
+        "semantic_score": 39.73,
+        "citation": "[2] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 1"
+      },
+      {
+        "rank": 3,
+        "content": "Contains Nonbinding Recommendations\nContent of Human Factors \nInformation in  Medical Device \nMarketing  Submissions\n__________________________________________________________________ ____________\nGuidance for Industry and\nFood and Drug Administratio",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 0
+        },
+        "similarity_score": 0.6166,
+        "relevance_percentage": 55.9,
+        "search_method": "keyword",
+        "keyword_score": 19.8,
+        "semantic_score": 38.34,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 1"
+      }
+    ]
+  },
+  {
+    "question_id": 10,
+    "question": "What are the two main categories of questions addressed in Section III of this guidance?",
+    "expected_answer": "The two main categories are: (1) Communications of HCEI to payors regarding approved/cleared medical products, and (2) Communications to payors about unapproved medical products and unapproved uses of approved/cleared medical products.",
+    "actual_answer": "Based on the provided context, the two main categories of questions addressed in Section III of this guidance are:\n\n1. **Communications of HCEI to payors regarding approved/cleared medical products**\n\n2. **Communications to payors about unapproved medical products and about unapproved uses of approved/cleared medical products**\n\nThese categories are listed on lines 43-47 of the document.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+    "error": null,
+    "word_overlap_score": 0.773,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 53.2,
+    "correctness": 5,
+    "completeness": 5,
+    "relevance": 5,
+    "retrieval_quality": 2,
+    "hallucination_check": 4,
+    "overall_score": 4.2,
+    "reasoning": "The actual answer correctly identifies both categories exactly as stated in the ground truth, demonstrating complete accuracy and relevance. However, the retrieved context doesn't clearly show these categories (only Source 2 hints at them), and the reference to 'lines 43-47' cannot be verified from the provided context, suggesting minor hallucination in citation details.",
+    "trace": {
+      "semantic_search_ms": 37.01,
+      "keyword_search_ms": 1.31,
+      "hybrid_scoring_ms": 306.45,
+      "llm_generation_ms": 2388.66,
+      "tokens_input": 727,
+      "tokens_output": 97,
+      "tokens_total": 824,
+      "cost_input_usd": 0.002181,
+      "cost_output_usd": 0.001455,
+      "cost_total_usd": 0.003636,
+      "total_time_ms": 2733.47,
+      "total_time_s": 2.73
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "product\u2019s economic consequences.  FDA considers the CARSE standard in section 502(a) to 262 \napply to all components of HCEI, including inputs and assumptions related to both economic 263 \nconsequences and clinical outcomes (i.e. , safety and/or effe",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 13
+        },
+        "similarity_score": 0.6373,
+        "relevance_percentage": 56.73,
+        "search_method": "keyword",
+        "keyword_score": 18.72,
+        "semantic_score": 36.27,
+        "citation": "[1] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 14"
+      },
+      {
+        "rank": 2,
+        "content": "Contains Nonbinding Recommendations  \nDraft \u2014 Not for Implementation  \n 5 unapproved medical  products or unapproved uses of approved/cleared medical products are 120 \nbeyond the scope of this guidance.14   121 \n 122 \n 123 \nIII. QUESTIONS AND ANSWERS",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 7
+        },
+        "similarity_score": 0.6212,
+        "relevance_percentage": 54.22,
+        "search_method": "keyword",
+        "keyword_score": 16.86,
+        "semantic_score": 37.88,
+        "citation": "[2] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 8"
+      },
+      {
+        "rank": 3,
+        "content": "The purpose of including human factors information in a marketing submission is to help the \nmanufacturer meet the applicable statutory and regulatory criteria  by demonstrating that the user \ninterface of the device is  appropriate for the intended ",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 7
+        },
+        "similarity_score": 0.6949,
+        "relevance_percentage": 48.64,
+        "search_method": "keyword",
+        "keyword_score": 16.25,
+        "semantic_score": 30.51,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 8"
+      }
+    ]
+  },
+  {
+    "question_id": 11,
+    "question": "When was the final version of the FDA guidance on Content of Human Factors Information in Medical Device Marketing Submissions issued?",
+    "expected_answer": "The final document was issued on May 29, 2026. The draft version of this document was previously issued on December 9, 2022.",
+    "actual_answer": "Based on the provided context, the final version of the FDA guidance on \"Content of Human Factors Information in Medical Device Marketing Submissions\" was issued on **May 29, 2026**.\n\nThe document also notes that the draft version was issued on December 9, 2022.",
+    "document": "Guidance-Human-Factors-Marketing.pdf",
+    "error": null,
+    "word_overlap_score": 0.765,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 83.6,
+    "correctness": 5,
+    "completeness": 5,
+    "relevance": 5,
+    "retrieval_quality": 2,
+    "hallucination_check": 3,
+    "overall_score": 4.0,
+    "reasoning": "The actual answer correctly provides both the final version date (May 29, 2026) and draft version date (December 9, 2022), matching the ground truth perfectly. However, the retrieved context snippets don't clearly show these dates, suggesting the information came from parts of the documents not displayed in the context, raising minor concerns about hallucination or incomplete context display.",
+    "trace": {
+      "semantic_search_ms": 19.42,
+      "keyword_search_ms": 2.64,
+      "hybrid_scoring_ms": 257.31,
+      "llm_generation_ms": 2385.36,
+      "tokens_input": 663,
+      "tokens_output": 65,
+      "tokens_total": 728,
+      "cost_input_usd": 0.001989,
+      "cost_output_usd": 0.000975,
+      "cost_total_usd": 0.002964,
+      "total_time_ms": 2664.77,
+      "total_time_s": 2.66
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations\nContent of Human Factors \nInformation in  Medical Device \nMarketing  Submissions\n__________________________________________________________________ ____________\nGuidance for Industry and\nFood and Drug Administratio",
+        "metadata": {
+          "page": 0,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2059,
+        "relevance_percentage": 87.65,
+        "search_method": "hybrid",
+        "keyword_score": 35.22,
+        "semantic_score": 79.41,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 1"
+      },
+      {
+        "rank": 2,
+        "content": "Contains Nonbinding Recommendations\n2This guidance includes recommendations for the content of human factors engineering and \nusability engineering  (HFE/UE)2information  included in marketing submissions . FDA\u2019s \ndecision on a medical device  market",
+        "metadata": {
+          "page": 4,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2349,
+        "relevance_percentage": 81.81,
+        "search_method": "hybrid",
+        "keyword_score": 31.61,
+        "semantic_score": 76.51,
+        "citation": "[2] Guidance-Human-Factors-Marketing.pdf, Page 5"
+      },
+      {
+        "rank": 3,
+        "content": "associated with med ical device use . The purpose of th e current  guidance is to help manufacturers \napply  a risk -based approach when considering what human factors information to include in a \nmarketing submission.  The current guidance provides ",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 4
+        },
+        "similarity_score": 0.2835,
+        "relevance_percentage": 81.33,
+        "search_method": "keyword",
+        "keyword_score": 33.76,
+        "semantic_score": 71.65,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 5"
+      }
+    ]
+  },
+  {
+    "question_id": 12,
+    "question": "What is the main goal of human factors assessment for medical devices according to this FDA guidance?",
+    "expected_answer": "The goal is to ensure that the device user interface has been designed such that use errors that occur during use of the device that could cause harm or degrade medical treatment are either eliminated or reduced to the extent possible.",
+    "actual_answer": "Based on the provided context, the main goal of human factors assessment for medical devices is to:\n\n**Demonstrate that the device design adequately meets the needs of the intended users and that the device is safe and effective for the intended users, uses, and use environments.**\n\nMore specifically, the context indicates that human factors processes should enable manufacturers to:\n- Assess and reduce risks associated with medical device use\n- Evaluate the effectiveness of risk control strategies through validation testing\n- Apply a risk-based approach when determining what human factors information to include in marketing submissions\n\nThe guidance emphasizes that appropriate human factors information should explain the presence or absence of critical tasks, include validation testing results, and discuss residual risks, ultimately improving the efficiency of FDA review.",
+    "document": "Guidance-Human-Factors-Marketing.pdf",
+    "error": null,
+    "word_overlap_score": 0.323,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 78.35,
+    "correctness": 3,
+    "completeness": 2,
+    "relevance": 4,
+    "retrieval_quality": 2,
+    "hallucination_check": 3,
+    "reasoning": "The actual answer provides a broader, more general goal about meeting user needs and safety, but misses the specific focus on eliminating/reducing use errors that could cause harm - the core point of the ground truth. The retrieved context is incomplete and doesn't contain the specific information needed to answer accurately, leading to a partially correct but incomplete response.",
+    "trace": {
+      "semantic_search_ms": 30.68,
+      "keyword_search_ms": 2.68,
+      "hybrid_scoring_ms": 253.19,
+      "llm_generation_ms": 4232.68,
+      "tokens_input": 737,
+      "tokens_output": 221,
+      "tokens_total": 958,
+      "cost_input_usd": 0.002211,
+      "cost_output_usd": 0.003315,
+      "cost_total_usd": 0.005526,
+      "total_time_ms": 4519.27,
+      "total_time_s": 4.52
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "FDA is committed to fostering the development of and patient access to innovative medical \ndevices while weighing  their benefits and risks. An important consideration for  medical devices \nis the  critical impact the  device  user interface  design ",
+        "metadata": {
+          "page": 3,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2191,
+        "relevance_percentage": 86.86,
+        "search_method": "hybrid",
+        "keyword_score": 35.04,
+        "semantic_score": 78.09,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 4"
+      },
+      {
+        "rank": 2,
+        "content": "FDA review by reducing the number of requests for additional information.\nThis guidance is intended to be used  to compl ement  the FDA guidance \u201cApplying Human \nFactors and Usability Engineering to Medical Devices \u201d (hereafter referred to as the Hum",
+        "metadata": {
+          "page": 4,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.1945,
+        "relevance_percentage": 77.41,
+        "search_method": "hybrid",
+        "keyword_score": 25.47,
+        "semantic_score": 80.55,
+        "citation": "[2] Guidance-Human-Factors-Marketing.pdf, Page 5"
+      },
+      {
+        "rank": 3,
+        "content": "is/are exposed to one or more hazards .11\n\u00b7Human factors engineering12: Application of knowledge about human behavior, \nabilities, limitations, and other characteristics to the design of medical devices \n(including software), systems and tasks to ach",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 6
+        },
+        "similarity_score": 0.2963,
+        "relevance_percentage": 70.78,
+        "search_method": "keyword",
+        "keyword_score": 25.02,
+        "semantic_score": 70.37,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 7"
+      }
+    ]
+  },
+  {
+    "question_id": 13,
+    "question": "What are the main factors to consider in a risk-based approach to human factors assessment?",
+    "expected_answer": "The main factors include the identification of (i.e., presence of or modification to) critical tasks and the elimination or reduction of use-related risks.",
+    "actual_answer": "Based on the provided context, the document indicates that a risk-based approach to human factors information in marketing submissions should consider:\n\n1. **Use-related hazards and risks** - The approach involves conducting Use-Related Risk Analysis (URRA), which is defined as \"systematic use of available information to identify use-related hazards and to estimate the use-related risk.\"\n\n2. **Use errors that could result in serious harm** - Human factors validation testing is specifically designed to \"identify use errors that would or could result in serious harm to the patient or user.\"\n\n3. **Effectiveness of risk control measures** - Human factors validation testing is also used to \"assess the effectiveness of risk control measures.\"\n\n4. **User interactions with the device interface** - This includes assessing how users interact with various elements such as \"packaging, labeling, training materials, physical controls, display elements, alarms, and logic of operation.\"\n\nThe context states that the purpose is to help manufacturers demonstrate they meet regulatory criteria, but the specific details of how to weight or prioritize these factors in the risk-based approach are not fully elaborated in the provided excerpt.",
+    "document": "Guidance-Human-Factors-Marketing.pdf",
+    "error": null,
+    "word_overlap_score": 0.333,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 68.92,
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 4,
+    "retrieval_quality": 2,
+    "hallucination_check": 4,
+    "overall_score": 2.8,
+    "reasoning": "The actual answer focuses on use-related hazards, risks, and validation testing, but misses the two main factors explicitly stated in the ground truth: (i) identification of critical tasks and (ii) elimination/reduction of use-related risks. Source 3 appears to contain the correct answer but was cut off, resulting in incomplete retrieval and an answer that, while relevant and not hallucinated, doesn't match the expected response.",
+    "trace": {
+      "semantic_search_ms": 21.16,
+      "keyword_search_ms": 1.31,
+      "hybrid_scoring_ms": 272.07,
+      "llm_generation_ms": 6170.23,
+      "tokens_input": 736,
+      "tokens_output": 309,
+      "tokens_total": 1045,
+      "cost_input_usd": 0.002208,
+      "cost_output_usd": 0.004635,
+      "cost_total_usd": 0.006843,
+      "total_time_ms": 6464.81,
+      "total_time_s": 6.46
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "FDA review by reducing the number of requests for additional information.\nThis guidance is intended to be used  to compl ement  the FDA guidance \u201cApplying Human \nFactors and Usability Engineering to Medical Devices \u201d (hereafter referred to as the Hum",
+        "metadata": {
+          "page": 4,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.3891,
+        "relevance_percentage": 72.08,
+        "search_method": "hybrid",
+        "keyword_score": 25.74,
+        "semantic_score": 61.09,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 5"
+      },
+      {
+        "rank": 2,
+        "content": "The purpose of including human factors information in a marketing submission is to help the \nmanufacturer meet the applicable statutory and regulatory criteria  by demonstrating that the user \ninterface of the device is  appropriate for the intended ",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 7
+        },
+        "similarity_score": 0.4384,
+        "relevance_percentage": 68.0,
+        "search_method": "keyword",
+        "keyword_score": 24.93,
+        "semantic_score": 56.16,
+        "citation": "[2] Guidance-Human-Factors-Marketing.pdf, Page 8"
+      },
+      {
+        "rank": 3,
+        "content": "designed such that use errors that occur during use of the device that could cause harm or \ndegrade medical treatment are either eliminated or reduced to the extent possible . The main \nfactors to consider in  a risk -based approach to human factors ",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.4819,
+        "relevance_percentage": 66.67,
+        "search_method": "keyword",
+        "keyword_score": 25.86,
+        "semantic_score": 51.81,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 4"
+      }
+    ]
+  },
+  {
+    "question_id": 14,
+    "question": "How can I contact the FDA with questions about this human factors guidance document?",
+    "expected_answer": "Questions about this document can be directed to the Human Factors Engineering Team at HFPMET@fda.hhs.gov. Additional copies can also be requested by emailing CDRH-Guidance@fda.hhs.gov with the document number GUI01500052.",
+    "actual_answer": "Based on the context provided, you can contact the FDA with questions about the human factors guidance document by emailing the Human Factors Engineering Team at **HFPMET@fda.hhs.gov**.",
+    "document": "Guidance-Human-Factors-Marketing.pdf",
+    "error": null,
+    "word_overlap_score": 0.52,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 78.85,
+    "correctness": 3,
+    "completeness": 2,
+    "relevance": 5,
+    "retrieval_quality": 1,
+    "hallucination_check": 2,
+    "overall_score": 2.6,
+    "reasoning": "The actual answer provides the correct email (HFPMET@fda.hhs.gov) but is missing the second contact email (CDRH-Guidance@fda.hhs.gov) and document number information. The retrieved context does not contain the contact information provided in the answer, indicating poor retrieval and potential hallucination of the email address.",
+    "trace": {
+      "semantic_search_ms": 28.96,
+      "keyword_search_ms": 1.26,
+      "hybrid_scoring_ms": 266.27,
+      "llm_generation_ms": 2021.83,
+      "tokens_input": 638,
+      "tokens_output": 46,
+      "tokens_total": 684,
+      "cost_input_usd": 0.001914,
+      "cost_output_usd": 0.00069,
+      "cost_total_usd": 0.002604,
+      "total_time_ms": 2318.34,
+      "total_time_s": 2.32
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations\nContent of Human Factors \nInformation in  Medical Device \nMarketing  Submissions\n__________________________________________________________________ ____________\nGuidance for Industry and\nFood and Drug Administratio",
+        "metadata": {
+          "page": 0,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2227,
+        "relevance_percentage": 86.23,
+        "search_method": "hybrid",
+        "keyword_score": 21.21,
+        "semantic_score": 77.73,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 1"
+      },
+      {
+        "rank": 2,
+        "content": "guidance is not intended to supersede other device -specific guidances.\nThis guidance is not intended to inform manufacturers about  how to perform a human factors \nevaluation . This guidance is also not intended to describe when a marketing submissi",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 5
+        },
+        "similarity_score": 0.3671,
+        "relevance_percentage": 77.97,
+        "search_method": "keyword",
+        "keyword_score": 21.43,
+        "semantic_score": 63.29,
+        "citation": "[2] Guidance-Human-Factors-Marketing.pdf, Page 6"
+      },
+      {
+        "rank": 3,
+        "content": "This guidance is intended to help submitter s and FDA staff  determine  what human factors \ninformation  should  be included in marketing submissions for medical devices , including  510(k) s, \nDe Novo requests , PMA s, and HDE  application s. Note t",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 5
+        },
+        "similarity_score": 0.447,
+        "relevance_percentage": 72.36,
+        "search_method": "keyword",
+        "keyword_score": 20.99,
+        "semantic_score": 55.3,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 6"
+      }
+    ]
+  },
+  {
+    "question_id": 15,
+    "question": "What complementary FDA guidance document should be used alongside this human factors marketing submission guidance?",
+    "expected_answer": "This guidance is intended to complement the FDA guidance titled 'Applying Human Factors and Usability Engineering to Medical Devices' (referred to as the Human Factors Guidance), which recommends and guides manufacturers through the human factors engineering process.",
+    "actual_answer": "Based on the provided context, this guidance is intended to be used to complement the FDA guidance **\"Applying Human Factors\"** (the title appears to be cut off in the provided text).\n\nThe context states: \"This guidance is intended to be used to complement the FDA guidance 'Applying Human...'\" but the full title of the complementary guidance document is not completely visible in the excerpted text provided.",
+    "document": "Guidance-Human-Factors-Marketing.pdf",
+    "error": null,
+    "word_overlap_score": 0.385,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 79.0,
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 5,
+    "retrieval_quality": 1,
+    "hallucination_check": 5,
+    "reasoning": "The RAG system correctly identifies that a complementary FDA guidance exists and starts with 'Applying Human Factors,' but fails to provide the complete title or any description of its purpose. The retrieved context contains no information about the complementary guidance document, indicating poor retrieval quality, though the system appropriately acknowledges the incomplete information rather than hallucinating details.",
+    "trace": {
+      "semantic_search_ms": 22.06,
+      "keyword_search_ms": 2.28,
+      "hybrid_scoring_ms": 218.3,
+      "llm_generation_ms": 2993.78,
+      "tokens_input": 655,
+      "tokens_output": 102,
+      "tokens_total": 757,
+      "cost_input_usd": 0.001965,
+      "cost_output_usd": 0.00153,
+      "cost_total_usd": 0.003495,
+      "total_time_ms": 3236.46,
+      "total_time_s": 3.24
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "What to include i n a marketing submission based on HF \nSubmission Category  \nUsing the flowchart in Figure 1 and its companion text to determine the HF Submission \nCategory, manufacturers should include the following human factors information in mar",
+        "metadata": {
+          "page": 12,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2768,
+        "relevance_percentage": 83.39,
+        "search_method": "hybrid",
+        "keyword_score": 22.47,
+        "semantic_score": 72.32,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 13"
+      },
+      {
+        "rank": 2,
+        "content": "criteria, forHDE applications ). Human factors  information , to the extent relevant, constitute s just \none component of FDA\u2019s assessment. \nThe marketing submission should , where appropriate  based on  the applicable statu tory and \nregulatory crit",
+        "metadata": {
+          "page": 4,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2212,
+        "relevance_percentage": 77.52,
+        "search_method": "hybrid",
+        "keyword_score": 17.3,
+        "semantic_score": 77.88,
+        "citation": "[2] Guidance-Human-Factors-Marketing.pdf, Page 5"
+      },
+      {
+        "rank": 3,
+        "content": "guidance is not intended to supersede other device -specific guidances.\nThis guidance is not intended to inform manufacturers about  how to perform a human factors \nevaluation . This guidance is also not intended to describe when a marketing submissi",
+        "metadata": {
+          "page": 5,
+          "source": "Guidance-Human-Factors-Marketing.pdf"
+        },
+        "similarity_score": 0.2559,
+        "relevance_percentage": 76.08,
+        "search_method": "hybrid",
+        "keyword_score": 17.66,
+        "semantic_score": 74.41,
+        "citation": "[3] Guidance-Human-Factors-Marketing.pdf, Page 6"
+      }
+    ]
+  },
+  {
+    "question_id": 16,
+    "question": "What is the FDA's definition of a master protocol?",
+    "expected_answer": "A master protocol is a protocol designed with multiple substudies, which may have different objectives and involve coordinated efforts to evaluate one or more drugs in one or more diseases or conditions within the overall study structure.",
+    "actual_answer": "Based on the provided context, the FDA defines a **master protocol** as:\n\n\"a protocol designed with multiple substudies, which may have different objectives and involve coordinated efforts to evaluate one or more drugs in one or more diseases or conditions within the overall study structure.\"\n\nThis definition appears on lines 26-28 of the document.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf",
+    "error": null,
+    "word_overlap_score": 0.903,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 63.86,
+    "correctness": 5,
+    "completeness": 5,
+    "relevance": 5,
+    "retrieval_quality": 1,
+    "hallucination_check": 3,
+    "overall_score": 3.8,
+    "reasoning": "The actual answer provides the exact definition matching the ground truth perfectly. However, the retrieved context sources show no relevant information about master protocol definitions, suggesting the answer may have been generated from context not shown or hallucinated. The reference to 'lines 26-28 of the document' cannot be verified from the provided context.",
+    "trace": {
+      "semantic_search_ms": 30.92,
+      "keyword_search_ms": 0.93,
+      "hybrid_scoring_ms": 321.41,
+      "llm_generation_ms": 2614.19,
+      "tokens_input": 734,
+      "tokens_output": 87,
+      "tokens_total": 821,
+      "cost_input_usd": 0.002202,
+      "cost_output_usd": 0.001305,
+      "cost_total_usd": 0.003507,
+      "total_time_ms": 2967.47,
+      "total_time_s": 2.97
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations  \nDraft \u2014 Not for Implementation  \n 23  826 \n\u2022 The master protocol sponsor should clearly mark the cover letter for protocol 827 \namendments with \u201cProtocol Amendment -MASTER PROTOCOL,\u201d and include a clean 828 \nand ",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 25
+        },
+        "similarity_score": 0.4672,
+        "relevance_percentage": 67.73,
+        "search_method": "keyword",
+        "keyword_score": 14.17,
+        "semantic_score": 53.28,
+        "citation": "[1] Master Protocols Rev Draft Guidance for Industry.pdf, Page 26"
+      },
+      {
+        "rank": 2,
+        "content": "and the Center for Devices and Radiological Health.   \n \n2 The term firms  refers to medical product manufacturers, packers, and distributors, including representatives of \nthese entities.  \n \n3 See Q1 for a definition of HCEI.  \n \n4 Each biological ",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.5829,
+        "relevance_percentage": 65.03,
+        "search_method": "keyword",
+        "keyword_score": 15.85,
+        "semantic_score": 41.71,
+        "citation": "[2] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 4"
+      },
+      {
+        "rank": 3,
+        "content": "misbranded \u201c[i]f its labeling is false or misleading in any particular .\u201d  Under longstanding FDA practice and FDA\u2019s \nstatute s, regulations, and case law, \u201clabeling\u201d encompasses more than merely the label of the drug but extends to \nother written, p",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 5
+        },
+        "similarity_score": 0.5764,
+        "relevance_percentage": 58.81,
+        "search_method": "keyword",
+        "keyword_score": 13.23,
+        "semantic_score": 42.36,
+        "citation": "[3] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 6"
+      }
+    ]
+  },
+  {
+    "question_id": 17,
+    "question": "What are the three main types of trials that could use a master protocol?",
+    "expected_answer": "The three main types are umbrella trials (evaluating multiple drugs for a single disease), basket trials (evaluating a drug for multiple diseases, conditions, or disease subtypes), and platform trials (evaluating multiple drugs for one or more diseases in an ongoing manner, with drugs entering or leaving the platform).",
+    "actual_answer": "Based on the provided context, I cannot identify three main types of trials that could use a master protocol. \n\nThe context mentions:\n- \"Umbrella Trial\" (referenced in Figure 1)\n- That master protocols may be useful in \"some pediatric or rare-disease trials\"\n- That trials using a master protocol \"may evaluate individual drugs or drug combinations\"\n\nHowever, the context does not explicitly list or describe \"three main types\" of trials that could use a master protocol. To provide a complete answer to this question, I would need additional context from other sections of the document.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf",
+    "error": null,
+    "word_overlap_score": 0.294,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 65.92,
+    "correctness": 1,
+    "completeness": 1,
+    "relevance": 3,
+    "retrieval_quality": 1,
+    "hallucination_check": 5,
+    "overall_score": 2.2,
+    "reasoning": "The RAG system failed to retrieve relevant context containing information about umbrella, basket, and platform trials, resulting in an inability to answer the question correctly. However, the system appropriately acknowledged its limitations rather than fabricating information, showing good hallucination control despite poor retrieval quality.",
+    "trace": {
+      "semantic_search_ms": 28.92,
+      "keyword_search_ms": 1.48,
+      "hybrid_scoring_ms": 267.93,
+      "llm_generation_ms": 3536.52,
+      "tokens_input": 729,
+      "tokens_output": 146,
+      "tokens_total": 875,
+      "cost_input_usd": 0.002187,
+      "cost_output_usd": 0.00219,
+      "cost_total_usd": 0.004377,
+      "total_time_ms": 3834.88,
+      "total_time_s": 3.83
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations \nDraft \u2014 Not for Implementation  \n 6 a master protocol will be adequate to contribute to a demonstration of substantial evidence of 133 \neffectiveness will depend on the design and conduct of the trial and the pers",
+        "metadata": {
+          "page": 8,
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf"
+        },
+        "similarity_score": 0.4253,
+        "relevance_percentage": 69.79,
+        "search_method": "hybrid",
+        "keyword_score": 19.7,
+        "semantic_score": 57.47,
+        "citation": "[1] Master Protocols Rev Draft Guidance for Industry.pdf, Page 9"
+      },
+      {
+        "rank": 2,
+        "content": "sum of their individual expected values, regardless of whether the random variables are independent or dependent. \nGiven this property, for any point in the null hypothesis (e.g., in a master protocol evaluating multiple drugs, the \nglobal null scena",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 18
+        },
+        "similarity_score": 0.5894,
+        "relevance_percentage": 64.63,
+        "search_method": "keyword",
+        "keyword_score": 22.32,
+        "semantic_score": 41.06,
+        "citation": "[2] Master Protocols Rev Draft Guidance for Industry.pdf, Page 19"
+      },
+      {
+        "rank": 3,
+        "content": "III.B).  203 \n 204 \nB. Control Group  205 \n 206 \nThe choice of co ntrol group is a critical design element of any  trial, including one conducted 207 \nunder a  master protocol .9 This guidance focuses on master protocols that include randomization 20",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 9
+        },
+        "similarity_score": 0.4834,
+        "relevance_percentage": 63.34,
+        "search_method": "keyword",
+        "keyword_score": 18.04,
+        "semantic_score": 51.66,
+        "citation": "[3] Master Protocols Rev Draft Guidance for Industry.pdf, Page 10"
+      }
+    ]
+  },
+  {
+    "question_id": 18,
+    "question": "How does this revised draft guidance differ from the previous version issued in December 2023?",
+    "expected_answer": "This revision provides additional recommendations on basket trials and includes minor changes for clarity on topics such as randomization, choice of control, and informed consent. It reflects FDA's consideration of public comments on the previous draft guidance.",
+    "actual_answer": "Based on the provided context, I cannot answer this question. The context does not contain any information comparing this guidance to a previous version from December 2023 or discussing what changes were made between versions. The excerpts only discuss the use of NRC's Nutrient Requirements of Laboratory Animals in PER study diets and mention the Paperwork Reduction Act of 1995, but do not address revisions or differences from earlier versions of the guidance.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf",
+    "error": null,
+    "word_overlap_score": 0.242,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 65.65,
+    "correctness": 1,
+    "completeness": 1,
+    "relevance": 2,
+    "retrieval_quality": 2,
+    "hallucination_check": 5,
+    "overall_score": 2.2,
+    "reasoning": "The RAG system correctly refused to answer due to insufficient context, showing no hallucination. However, the retrieved context actually contains relevant information (Source 2 mentions revision of previous draft guidance from December 21), but the system failed to utilize it, resulting in an incomplete and incorrect response that doesn't match the ground truth about basket trials and other specific changes.",
+    "trace": {
+      "semantic_search_ms": 28.43,
+      "keyword_search_ms": 3.05,
+      "hybrid_scoring_ms": 184.97,
+      "llm_generation_ms": 4117.73,
+      "tokens_input": 611,
+      "tokens_output": 116,
+      "tokens_total": 727,
+      "cost_input_usd": 0.001833,
+      "cost_output_usd": 0.00174,
+      "cost_total_usd": 0.003573,
+      "total_time_ms": 4334.21,
+      "total_time_s": 4.33
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "Contains Nonbinding Recommendations\n43Guidance History* Date Description \nLevel 1 Final Guidance May 2026 See Notice of Availability for more information.**\nRevised Level 1 Draft \nGuidanceDecember 2022 See Notice of Availability for more information.",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 45
+        },
+        "similarity_score": 0.4159,
+        "relevance_percentage": 67.77,
+        "search_method": "keyword",
+        "keyword_score": 18.6,
+        "semantic_score": 58.41,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 46"
+      },
+      {
+        "rank": 2,
+        "content": "conducted under a master protocol as well as guidance on the submission of documentation to 17 \nsupport regulatory review .2 This draft guidance revises and replaces the previous draft guidance 18 \nfor industry of the same name issued on December 21,",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 3
+        },
+        "similarity_score": 0.5432,
+        "relevance_percentage": 67.09,
+        "search_method": "keyword",
+        "keyword_score": 22.56,
+        "semantic_score": 45.68,
+        "citation": "[2] Master Protocols Rev Draft Guidance for Industry.pdf, Page 4"
+      },
+      {
+        "rank": 3,
+        "content": "Contains Nonbinding Recommendations  \nDraft \u2014 Not for Implementation  \n 2 to as unapproved medical products9) and  dissemination to payors of information about 22 \nunapproved uses of approved/cleared medical products .10 23 \n 24 \nThis guidance incorp",
+        "metadata": {
+          "source": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf",
+          "page": 4
+        },
+        "similarity_score": 0.5059,
+        "relevance_percentage": 62.08,
+        "search_method": "keyword",
+        "keyword_score": 18.44,
+        "semantic_score": 49.41,
+        "citation": "[3] 56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf, Page 5"
+      }
+    ]
+  },
+  {
+    "question_id": 19,
+    "question": "What is a substudy in the context of a master protocol?",
+    "expected_answer": "A substudy refers to the specific objectives, design, conduct, and analysis related to evaluation of a single drug in a single disease, condition, or disease subtype within the master protocol.",
+    "actual_answer": "Based on the provided context, a substudy refers to a component within a master protocol that evaluates an individual drug. \n\nThe context shows that:\n- A master protocol can contain multiple substudies (e.g., \"substudies S-1, S-2, and S-3\" and \"substudies A and B\")\n- Each substudy is associated with a specific drug (e.g., \"drug A in substudy A\" and \"drug B in substudy B\")\n- Substudies are used in umbrella or platform trials conducted under a master protocol to evaluate multiple drugs for a single disease\n\nHowever, the provided context does not contain a formal definition of what constitutes a substudy or detailed information about its specific characteristics beyond its role in evaluating individual drugs within the master protocol framework.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf",
+    "error": null,
+    "word_overlap_score": 0.6,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 65.58,
+    "correctness": 2,
+    "completeness": 2,
+    "relevance": 4,
+    "retrieval_quality": 1,
+    "hallucination_check": 3,
+    "overall_score": 2.4,
+    "reasoning": "The actual answer only captures that substudies evaluate individual drugs, missing critical elements from the ground truth: specific objectives, design, conduct, analysis, and evaluation within a single disease/condition/subtype. The retrieved context lacks the formal definition needed, resulting in an incomplete answer with some unsupported inferences about umbrella/platform trials.",
+    "trace": {
+      "semantic_search_ms": 28.65,
+      "keyword_search_ms": 1.04,
+      "hybrid_scoring_ms": 277.86,
+      "llm_generation_ms": 4571.11,
+      "tokens_input": 658,
+      "tokens_output": 188,
+      "tokens_total": 846,
+      "cost_input_usd": 0.001974,
+      "cost_output_usd": 0.00282,
+      "cost_total_usd": 0.004794,
+      "total_time_ms": 4878.69,
+      "total_time_s": 4.88
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "and to all  other substudy INDs to notify about the changes  and cross- reference the 817 \nrespective substudy IND. 818 \n 819 \n\u2022 The cover letter for submissions of major changes (e.g., initiation of a new substudy, 820 \namendment of a key design ele",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 24
+        },
+        "similarity_score": 0.4934,
+        "relevance_percentage": 68.48,
+        "search_method": "keyword",
+        "keyword_score": 20.55,
+        "semantic_score": 50.66,
+        "citation": "[1] Master Protocols Rev Draft Guidance for Industry.pdf, Page 25"
+      },
+      {
+        "rank": 2,
+        "content": "additional discussion in section III.B) .  194 \n 195 \nIt may be reasonable in some master protocols for participants  who complete one drug -specific 196 \nsubstudy and an appropriate washout period to re -enroll and be randomized to a different drug-",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 9
+        },
+        "similarity_score": 0.547,
+        "relevance_percentage": 66.44,
+        "search_method": "keyword",
+        "keyword_score": 21.19,
+        "semantic_score": 45.3,
+        "citation": "[2] Master Protocols Rev Draft Guidance for Industry.pdf, Page 10"
+      },
+      {
+        "rank": 3,
+        "content": "Contains Nonbinding Recommendations  \nDraft \u2014 Not for Implementation  \n 23  826 \n\u2022 The master protocol sponsor should clearly mark the cover letter for protocol 827 \namendments with \u201cProtocol Amendment -MASTER PROTOCOL,\u201d and include a clean 828 \nand ",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 25
+        },
+        "similarity_score": 0.6363,
+        "relevance_percentage": 61.82,
+        "search_method": "keyword",
+        "keyword_score": 21.59,
+        "semantic_score": 36.37,
+        "citation": "[3] Master Protocols Rev Draft Guidance for Industry.pdf, Page 26"
+      }
+    ]
+  },
+  {
+    "question_id": 20,
+    "question": "What are the key design and analysis considerations mentioned in the guidance document?",
+    "expected_answer": "The key considerations include randomization, control group selection, informed consent, blinding to treatment assignment, adaptive design, comparisons between drugs, approaches for evaluating drug effects in multiple diseases or subtypes, multiplicity, and safety.",
+    "actual_answer": "Based on the provided context, I cannot answer your question about key design and analysis considerations. \n\nThe context provided only contains information about:\n- The types of \"product information\" covered under section 502(gg) of the FD&C Act (Q11)\n- What products this guidance section applies to (unapproved medical products and unapproved uses)\n- Guidance document history dates\n\nThere is no information in the provided context about design and analysis considerations. To answer your question, I would need access to different sections of the guidance document that specifically address design and analysis topics.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf",
+    "error": null,
+    "word_overlap_score": 0.156,
+    "has_answer": true,
+    "num_docs_retrieved": 3,
+    "avg_relevance_percentage": 61.71,
+    "correctness": 1,
+    "completeness": 1,
+    "relevance": 2,
+    "retrieval_quality": 1,
+    "hallucination_check": 5,
+    "overall_score": 2.0,
+    "reasoning": "The RAG system correctly identified that the retrieved context does not contain the necessary information to answer the question, avoiding hallucination. However, the retrieval failed completely - none of the retrieved passages contain information about the key design and analysis considerations mentioned in the ground truth (randomization, control groups, informed consent, etc.), resulting in an inability to provide the correct answer.",
+    "trace": {
+      "semantic_search_ms": 27.34,
+      "keyword_search_ms": 1.79,
+      "hybrid_scoring_ms": 260.26,
+      "llm_generation_ms": 4372.28,
+      "tokens_input": 565,
+      "tokens_output": 155,
+      "tokens_total": 720,
+      "cost_input_usd": 0.001695,
+      "cost_output_usd": 0.002325,
+      "cost_total_usd": 0.00402,
+      "total_time_ms": 4661.7,
+      "total_time_s": 4.66
+    },
+    "source_documents": [
+      {
+        "rank": 1,
+        "content": "HFE/UE  analysis and evaluation methods used (e.g., specific analysis techniques, formative \nevaluations), summarize the key results of those analyses and evaluations, describe modifications \nmade to the user interface design in response, and discuss",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 18
+        },
+        "similarity_score": 0.5292,
+        "relevance_percentage": 68.25,
+        "search_method": "keyword",
+        "keyword_score": 23.1,
+        "semantic_score": 47.08,
+        "citation": "[1] Guidance-Human-Factors-Marketing.pdf, Page 19"
+      },
+      {
+        "rank": 2,
+        "content": "5 Summary of preliminary HFE/UE analyses and evaluations\n\u00b7 Evaluation methods used \n\u00b7 Key results and design modifications implemented in response\n\u00b7 Key findings that informed the human factors validation test protocol\n6 Analysis of hazards and risks",
+        "metadata": {
+          "source": "Guidance-Human-Factors-Marketing.pdf",
+          "page": 43
+        },
+        "similarity_score": 0.6097,
+        "relevance_percentage": 59.38,
+        "search_method": "keyword",
+        "keyword_score": 20.77,
+        "semantic_score": 39.03,
+        "citation": "[2] Guidance-Human-Factors-Marketing.pdf, Page 44"
+      },
+      {
+        "rank": 3,
+        "content": "III.B).  203 \n 204 \nB. Control Group  205 \n 206 \nThe choice of co ntrol group is a critical design element of any  trial, including one conducted 207 \nunder a  master protocol .9 This guidance focuses on master protocols that include randomization 20",
+        "metadata": {
+          "source": "Master Protocols Rev Draft Guidance for Industry.pdf",
+          "page": 9
+        },
+        "similarity_score": 0.5839,
+        "relevance_percentage": 57.5,
+        "search_method": "keyword",
+        "keyword_score": 18.79,
+        "semantic_score": 41.61,
+        "citation": "[3] Master Protocols Rev Draft Guidance for Industry.pdf, Page 10"
+      }
+    ]
+  }
+]

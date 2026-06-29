@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the purpose of conducting a PER (Protein Efficiency Ratio) rat bioassay for infant formulas?",
+    "answer": "The PER rat bioassay is used to demonstrate that a new infant formula meets the quality factor of sufficient biological quality of protein. It determines the efficiency (quality) of a test protein compared with reference casein protein by comparing growth rates from rats consuming a diet containing the test protein with those consuming a diet containing the reference protein. This approach ensures that infants will not be fed a formula with inadequate or biologically unavailable protein.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+  },
+  {
+    "question": "According to 21 CFR 106.96(f), when must a PER rat bioassay be conducted in relation to growth monitoring studies?",
+    "answer": "The PER rat bioassay must be conducted on a formula and the results evaluated prior to the initiation of a growth monitoring study of the formula that is required under 21 CFR 106.96(b). This ensures that protein quality is assessed before infants are exposed to the formula.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+  },
+  {
+    "question": "Why are modifications to the AOAC Official Method 960.48 necessary when testing infant formulas?",
+    "answer": "Modifications are necessary because infant formulas have relatively high fat and low protein contents and may contain high concentrations of lactose, which differ from the original AOAC Method parameters. The aim of specific diet modifications is to ensure that the infant formula-containing test diet and the casein reference diet are as similar as possible, with adjustments made to attain similar levels and types of fat, carbohydrate, and ash content.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+  },
+  {
+    "question": "What is the unique advantage of the PER bioassay compared to chemical measurements of protein?",
+    "answer": "The PER bioassay is unique in its ability to assess relative protein utilization and bioavailability of different protein sources. While chemical measurements of total protein and amino acid patterns are possible, they do not address the bioavailability of a protein, and FDA is not aware of any other method to assess protein bioavailability.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+  },
+  {
+    "question": "Why must protein in infant formula be evaluated as part of the whole formula matrix rather than as a single protein ingredient?",
+    "answer": "FDA regulations require evaluation of protein as part of the whole formula matrix to account for the effects of processing or other components on digestion and protein availability. This ensures that the assessment reflects how the protein will actually perform in the complete infant formula product rather than in isolation.",
+    "document": "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf"
+  },
+  {
+    "question": "What is the purpose of the FDA guidance document on Drug and Device Manufacturer Communications With Payors?",
+    "answer": "The guidance provides answers to common questions concerning firms' communication of health care economic information (HCEI) regarding their prescription drugs and medical devices to payors, formulary committees, or similar entities. It also addresses questions relating to dissemination to payors of information about unapproved medical products and unapproved uses of approved/cleared medical products.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf"
+  },
+  {
+    "question": "What legislative changes prompted the revision of this FDA guidance document?",
+    "answer": "The guidance incorporates updates to the Federal Food, Drug, and Cosmetic Act (FD&C Act) as amended by section 3630 of the Consolidated Appropriations Act, 2023. Changes include updates to reflect revised statutory text that makes provisions in section 502(a) applicable to devices, and alignment with new section 502(gg) of the FD&C Act regarding truthful and not misleading information provided to payors.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf"
+  },
+  {
+    "question": "How long do stakeholders have to submit comments on this draft FDA guidance?",
+    "answer": "Comments and suggestions regarding this draft document should be submitted within 60 days of publication in the Federal Register of the notice announcing the availability of the draft guidance. Comments can be submitted electronically to regulations.gov or in writing to the Dockets Management Staff.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf"
+  },
+  {
+    "question": "Who should be contacted with questions about this draft guidance document from CDER, CBER, and CDRH?",
+    "answer": "For questions regarding this draft document, stakeholders should contact Twyla Mosey at 301-796-1200 for CDER, the Office of Communication, Outreach and Development at 800-835-4709 or 240-402-8010 for CBER, and Stephanie Philbin at 301-837-7151 for CDRH.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf"
+  },
+  {
+    "question": "What are the two main categories of questions addressed in Section III of this guidance?",
+    "answer": "The two main categories are: (1) Communications of HCEI to payors regarding approved/cleared medical products, and (2) Communications to payors about unapproved medical products and unapproved uses of approved/cleared medical products.",
+    "document": "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf"
+  },
+  {
+    "question": "When was the final version of the FDA guidance on Content of Human Factors Information in Medical Device Marketing Submissions issued?",
+    "answer": "The final document was issued on May 29, 2026. The draft version of this document was previously issued on December 9, 2022.",
+    "document": "Guidance-Human-Factors-Marketing.pdf"
+  },
+  {
+    "question": "What is the main goal of human factors assessment for medical devices according to this FDA guidance?",
+    "answer": "The goal is to ensure that the device user interface has been designed such that use errors that occur during use of the device that could cause harm or degrade medical treatment are either eliminated or reduced to the extent possible.",
+    "document": "Guidance-Human-Factors-Marketing.pdf"
+  },
+  {
+    "question": "What are the main factors to consider in a risk-based approach to human factors assessment?",
+    "answer": "The main factors include the identification of (i.e., presence of or modification to) critical tasks and the elimination or reduction of use-related risks.",
+    "document": "Guidance-Human-Factors-Marketing.pdf"
+  },
+  {
+    "question": "How can I contact the FDA with questions about this human factors guidance document?",
+    "answer": "Questions about this document can be directed to the Human Factors Engineering Team at HFPMET@fda.hhs.gov. Additional copies can also be requested by emailing CDRH-Guidance@fda.hhs.gov with the document number GUI01500052.",
+    "document": "Guidance-Human-Factors-Marketing.pdf"
+  },
+  {
+    "question": "What complementary FDA guidance document should be used alongside this human factors marketing submission guidance?",
+    "answer": "This guidance is intended to complement the FDA guidance titled 'Applying Human Factors and Usability Engineering to Medical Devices' (referred to as the Human Factors Guidance), which recommends and guides manufacturers through the human factors engineering process.",
+    "document": "Guidance-Human-Factors-Marketing.pdf"
+  },
+  {
+    "question": "What is the FDA's definition of a master protocol?",
+    "answer": "A master protocol is a protocol designed with multiple substudies, which may have different objectives and involve coordinated efforts to evaluate one or more drugs in one or more diseases or conditions within the overall study structure.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf"
+  },
+  {
+    "question": "What are the three main types of trials that could use a master protocol?",
+    "answer": "The three main types are umbrella trials (evaluating multiple drugs for a single disease), basket trials (evaluating a drug for multiple diseases, conditions, or disease subtypes), and platform trials (evaluating multiple drugs for one or more diseases in an ongoing manner, with drugs entering or leaving the platform).",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf"
+  },
+  {
+    "question": "How does this revised draft guidance differ from the previous version issued in December 2023?",
+    "answer": "This revision provides additional recommendations on basket trials and includes minor changes for clarity on topics such as randomization, choice of control, and informed consent. It reflects FDA's consideration of public comments on the previous draft guidance.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf"
+  },
+  {
+    "question": "What is a substudy in the context of a master protocol?",
+    "answer": "A substudy refers to the specific objectives, design, conduct, and analysis related to evaluation of a single drug in a single disease, condition, or disease subtype within the master protocol.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf"
+  },
+  {
+    "question": "What are the key design and analysis considerations mentioned in the guidance document?",
+    "answer": "The key considerations include randomization, control group selection, informed consent, blinding to treatment assignment, adaptive design, comparisons between drugs, approaches for evaluating drug effects in multiple diseases or subtypes, multiplicity, and safety.",
+    "document": "Master Protocols Rev Draft Guidance for Industry.pdf"
+  }
+]
