@@ -26,12 +26,16 @@ COPY rag_evaluation.py .
 COPY rag_evaluation_judge.py .
 COPY rag_evaluation_qa.json .
 
-# Copy PDF documents
-COPY *.pdf ./
+# Copy PDF documents (list each explicitly to avoid wildcard issues)
+COPY "ProteinEfficiencyRatio-FinalGuidance-May2026.pdf" ./
+COPY "56628397dftrv1 - Drug and Device Manufacturer Communications With Payors Q&A.pdf" ./
+COPY "Guidance-Human-Factors-Marketing.pdf" ./
+COPY "Master Protocols Rev Draft Guidance for Industry.pdf" ./
 
-# Copy evaluation results if they exist
-COPY rag_eval_judge_summary_*.csv ./ 2>/dev/null || true
-COPY rag_eval_judge_results_*.json ./ 2>/dev/null || true
+# Copy evaluation results
+COPY rag_evaluation_qa.json ./ 
+COPY rag_eval_judge_summary_20260625_205920.csv ./
+COPY rag_eval_judge_results_20260625_205920.json ./
 
 # Create directory for ChromaDB
 RUN mkdir -p chroma_db
